@@ -1,0 +1,56 @@
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$inputbackground-color:rgb(179, 183, 187);;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0%;
+}
+
+.top-head{
+    background-image: url();
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: silver;
+    height: 400px;
+    border-radius: 0 0 14rem 0;
+     margin-bottom: 20px; 
+  }
+  .logo{
+    width: 210px;
+    height: 90px;
+    background-color: rgb(100, 98, 98);
+    float: left;
+  }
+
+  .form-n input{
+    border: none;
+    background-color: $inputbackground-color;
+   width: 320px;
+   border-radius: 30rem;
+   padding: 21px;
+  }
+
+  .form-n {
+        button {
+            border: none;
+            background-color: rgb(35, 111, 187);
+            width: 100px;
+            height: 40px;
+            border-radius: 30rem;
+             
+          }
+  }
+
+  
+
+  #footer{
+    margin-top: 20px;
+    background-color: silver;
+    height: 200px;
+    border-radius: 14rem 0 0 0;
+  }
+ 
